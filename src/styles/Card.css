@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(145, 142, 155, 0.3);
+}
+
+.card-text h3,
+.card-text p {
+  font-size: 10px;
+}
+
+.card-location {
+  margin-bottom: 8px;
+}
+
+.country {
+  letter-spacing: 0.17em;
+}
+
+.maps-link {
+  color: #918E9B;
+}
+
+.card-title {
+  font-size: 25px;
+  margin: 0;
+}
+
+.card-date {
+  margin-top: 20px;
+}
