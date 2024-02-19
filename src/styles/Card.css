@@ -1,9 +1,19 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .card {
   display: flex;
   align-items: flex-start;
   gap: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(145, 142, 155, 0.3);
+}
+
+.card:last-child {
+  border: none;
 }
 
 .card-text h3,
@@ -17,6 +27,7 @@
 
 .country {
   letter-spacing: 0.17em;
+  text-transform: uppercase;
 }
 
 .maps-link {
@@ -26,6 +37,7 @@
 .card-title {
   font-size: 25px;
   margin: 0;
+  text-transform: capitalize;
 }
 
 .card-date {
